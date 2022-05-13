@@ -1,6 +1,12 @@
+require "pry"
+
 thestring = "this is a sentence"
 
 puts thestring
 
 thesplit = thestring.split
 puts thesplit
+
+binding.pry
+
+puts "phew"
