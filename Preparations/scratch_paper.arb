@@ -1,1 +1,4 @@
 #this is just some scratch paper#
+
+sentence = "this is definitely a sentence"
+puts sentence
