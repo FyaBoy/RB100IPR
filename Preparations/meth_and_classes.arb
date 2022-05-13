@@ -1,0 +1,6 @@
+thestring = "this is a sentence"
+
+puts thestring
+
+thesplit = thestring.split
+puts thesplit
