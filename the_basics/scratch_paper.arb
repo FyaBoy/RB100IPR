@@ -1,1 +1,28 @@
 #This is my scrach paper#
+
+#string interpolation requires double quotes
+#adding ruby code basic syntax is #{var}
+
+theword = "swag"
+puts "all I got is #{theword}!"
+print "Loading other notes"
+sleep 1
+print "."
+sleep 1
+print "."
+sleep 1
+puts "."
+
+#below are some examples of symbols, which are hard-coded into memory
+#strings which are quicker to access since symbols do note
+#have to allocate and de-allocate memory, they are stored and unchanged
+
+:name
+:a_symbol
+:"also a symbol"
+
+float = 5.7
+integer = 6
+
+puts "#{float} is a float, whole numbers are integers such as #{integer}"
+
