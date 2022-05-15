@@ -26,3 +26,63 @@ integer = 6
 
 puts "#{float} is a float, whole numbers are integers such as #{integer}"
 
+#nil is a way to express nothing
+#a variable with a value of nil could be described as empty
+# nil will be treated as false in an expression
+
+#The operator == returns a boolean (true false) 
+# using var.to_i changes a string value to an integer
+#likewise to_s changes a integer to a string
+
+print "Loading other notes"
+sleep 1
+print "."
+sleep 1
+print "."
+sleep 1
+puts "."
+
+thebool = nil == 0
+puts "the answer to our boolean is #{thebool}"
+
+print "is nil the same as false?"
+sleep 1
+print "."
+sleep 1
+print "."
+sleep 1
+puts "."
+
+thebool = nil == false
+puts "the answer is #{thebool}"
+
+print "setting up contatenation and type version"
+sleep 1
+print "."
+sleep 1
+print "."
+sleep 1
+puts "."
+
+thebool = nil == false
+if thebool == true
+  thebool = "1"
+else thebool = "2"
+end
+
+
+
+puts "the bool plus five is" + " #{thebool.to_i+5}"
+
+print "what does the fox say tho"
+sleep 1
+print "."
+sleep 1
+print "."
+sleep 1
+puts "."
+
+{:thefox => 'ringdingdingding'}
+
+[:thefox]
+
