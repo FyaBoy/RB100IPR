@@ -1,0 +1,12 @@
+movietitle = [ "The Hitchiker's Guide To The Galaxy", 
+               "Sweeney Todd", 
+               "Ender's Game" ]
+
+releaseyear = [ "2005", 
+                "2007", 
+                "2013"]
+
+puts movietitle[0] + "was released in " + releaseyear[0]     
+puts movietitle[1] + "was released in " + releaseyear[1]
+puts movietitle[2] + "was released in " + releaseyear[2]   
+

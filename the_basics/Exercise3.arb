@@ -1,0 +1,10 @@
+movies = { TheHitchikersGuideToTheGalaxy: 2005, 
+           SweeneyTodd: 2007, 
+           EndersGame:  2013 }
+
+print "The Hitchiker's Guide to the Glaxy Release Date: "           
+puts movies[:TheHitchikersGuideToTheGalaxy]
+print "Sweeney Todd's Release Date: "           
+puts movies[:SweeneyTodd]
+print "Ender's Game Release Date: "           
+puts movies[:EndersGame]

@@ -1,0 +1,7 @@
+Firstname = "Brandon"
+Lastname = "Turner"
+
+
+theproduct =  Firstname + " " + Lastname
+
+puts theproduct
