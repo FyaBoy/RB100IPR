@@ -1,0 +1,9 @@
+factorial5 = 5*4*3*2
+factorial6 = 6*5*4*3*2
+factorial7 = 7*6*5*4*3*2
+factorial8 = 8*7*6*5*4*3*2
+
+puts "the factorial of 5 is " + factorial5.to_s
+puts "the factorial of 6 is " + factorial6.to_s
+puts "the factorial of 7 is " + factorial7.to_s
+puts "the factorial of 8 is " + factorial8.to_s

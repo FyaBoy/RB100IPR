@@ -1,0 +1,11 @@
+flt1 = 9.3
+flt2 = 7.4
+flt3 = 3.27
+
+sqrd1 = flt1*flt1
+sqrd2 = flt2*flt2
+sqrd3 = flt3*flt3
+
+puts "9.3 squared is " + sqrd1.to_s
+puts "7.4 squared is " + sqrd2.to_s
+puts "3.27 squared is " + sqrd3.to_s
