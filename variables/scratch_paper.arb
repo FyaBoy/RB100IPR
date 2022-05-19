@@ -1,1 +1,49 @@
 #this is just scratch paper
+
+#defining the username aquisition method
+def getusername
+  puts "Hello, please enter your first name: "
+  @firstname = gets.chomp
+  puts "Now enter your last name:  "
+  @lastname = gets.chomp
+  puts "Thank you for your cooperation " + @firstname + " " + @lastname
+end
+
+def getgenre1
+  @genre1 = gets.chomp
+  puts "Thank you, please enter your next selection."
+end
+
+def getgenre2
+  @genre2 = gets.chomp
+  puts "Thank you, please enter your next selection."
+end
+
+def getgenre3
+  @genre3 = gets.chomp
+  puts "Thank you, please confirm your selections:  "
+end
+
+
+
+#calling the username aquisition method
+getusername
+@confirmation = 'n'
+
+while @confirmation == 'n'
+  puts "Please enter your favorite genres of music:  "
+
+  getgenre1
+  getgenre2
+  getgenre3
+
+  genrelist = [ @genre1, @genre2, @genre3]
+  genrelist.each { |x| puts x}
+
+  puts "Please confirm your selection, is this correct?  y/n"
+  @confirmation = gets.chomp
+end
+  puts "Thank you for your information " + @firstname
+
+
+
