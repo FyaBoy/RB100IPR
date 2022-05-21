@@ -9,6 +9,7 @@ def getusername
   puts "Thank you for your cooperation " + @firstname + " " + @lastname
 end
 
+#defining genre variables as instance variables to break normal scope
 def getgenre1
   @genre1 = gets.chomp
   puts "Thank you, please enter your next selection."
@@ -30,6 +31,7 @@ end
 getusername
 @confirmation = 'n'
 
+#change to an else loop to lock choices to y/m
 while @confirmation == 'n'
   puts "Please enter your favorite genres of music:  "
 

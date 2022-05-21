@@ -1,0 +1,25 @@
+
+=begin
+def quickmath(number)
+  puts number + 5
+end
+
+quickmath(gets.chomp.to_i)
+
+###############################################################
+a = [1, 2, 3]
+
+def mutate(array)
+  array.pop
+end
+
+p "Before mutate method #{a}"
+p mutate(a)
+p "After mutate method #{a}"
+=end
+
+def triangle(b, h)
+  puts 0.5 * b * h
+end
+  
+triangle(gets.chomp.to_i, gets.chomp.to_i)

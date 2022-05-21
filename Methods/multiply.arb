@@ -1,0 +1,5 @@
+def triangle(b, h)
+  puts 0.5 * b * h
+end
+
+triangle(gets.chomp.to_i, gets.chomp.to_i)

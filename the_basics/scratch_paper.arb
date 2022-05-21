@@ -82,7 +82,5 @@ print "."
 sleep 1
 puts "."
 
-{:thefox => 'ringdingdingding'}
-
-[:thefox]
+puts "Nothing, foxes can't speak silly"
 

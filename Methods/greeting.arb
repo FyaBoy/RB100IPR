@@ -1,0 +1,5 @@
+def greeting(name)
+  puts "Hello "+ name +" welcome to the matrix"
+end
+
+greeting(gets.chomp)
