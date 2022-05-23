@@ -1,0 +1,22 @@
+=begin
+'4' == 4 ? puts("TRUE") : puts("FALSE")
+
+
+x = 2
+if ((x*3) / 2) == (4 + 4 - x - 3)
+  puts "Did you get it right?"
+else
+  puts "did you?"
+end
+
+
+def equal_to_four(x)
+  if x == 4
+    puts "yup"
+  else
+    puts "nope"
+  end
+end
+
+equal_to_four(5)
+=end

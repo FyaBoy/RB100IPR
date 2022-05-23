@@ -1,0 +1,13 @@
+def caplong(word)
+  if word.length > 10
+    word = word.upcase
+    puts word
+    puts "Wasn't that awesome??"
+  else
+    puts "Dont you know any bigger words??"
+    caplong(gets.chomp)
+  end
+end
+
+puts "I can do something cool, try typing a word human, see the spectacle: "
+caplong(gets.chomp)

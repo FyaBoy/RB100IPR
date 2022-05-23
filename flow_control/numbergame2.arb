@@ -1,0 +1,19 @@
+
+
+def guess(number)
+  if number.to_i.to_s != number
+    puts "Stop playing games human, I know that's not a number"
+  elsif number.to_i.between?(0, 50)
+    puts "That number is between 0 and 50"
+  elsif number.to_i.between?(51, 100)
+    puts "That number is between 50 and 100"  
+  elsif number.to_i < 0
+    puts "Negative numbers are not true numbers because one cannot have a negative number of any object"
+  elsif number.to_i > 100
+    puts "That number is greater than 100"
+  end
+ end
+ 
+ 
+ puts "please type a number, any number"
+ guess(gets.chomp)
