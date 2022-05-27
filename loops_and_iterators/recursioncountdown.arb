@@ -1,0 +1,11 @@
+def countdown(x)
+  if x >= 1
+    x -=1
+    puts x
+    countdown(x)
+  else
+    return puts "BLAST OFF"
+  end
+end
+
+countdown(gets.chomp.to_i)

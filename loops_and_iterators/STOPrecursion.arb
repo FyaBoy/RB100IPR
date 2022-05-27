@@ -1,0 +1,11 @@
+def nostoppy
+  puts "Hey"
+  stop_it = gets.chomp
+  if stop_it == "STOP"
+    return puts "Ok fine" 
+  else
+    nostoppy
+  end
+end
+
+nostoppy
